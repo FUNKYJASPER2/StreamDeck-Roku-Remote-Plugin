@@ -1,0 +1,259 @@
+{
+    "Actions": [
+        {
+            "Icon": "images/Actions/Up/up",
+            "Name": "Move Cursor Up",
+            "States": [
+                {
+                    "Image": "images/Actions/Up/Icons/up",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Moves cursor up",
+            "UUID": "com.funky.rokuremotejs.Up",
+            "PropertyInspectorPath": "pi/main_pi.html"
+        },
+        {
+            "Icon": "images/Actions/Down/down",
+            "Name": "Move Cursor Down",
+            "States": [
+                {
+                    "Image": "images/Actions/Down/Icons/down",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Moves cursor down",
+            "UUID": "com.funky.rokuremotejs.Down",
+            "PropertyInspectorPath": "pi/main_pi.html"
+        },
+        {
+            "Icon": "images/Actions/Left/left",
+            "Name": "Move Cursor Left",
+            "States": [
+                {
+                    "Image": "images/Actions/Left/Icons/left",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Moves cursor left",
+            "UUID": "com.funky.rokuremotejs.Left",
+            "PropertyInspectorPath": "pi/main_pi.html"
+        },
+        {
+            "Icon": "images/Actions/Right/right",
+            "Name": "Move Cursor Right",
+            "States": [
+                {
+                    "Image": "images/Actions/Right/Icons/right",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Moves cursor right",
+            "UUID": "com.funky.rokuremotejs.Right",
+            "PropertyInspectorPath": "pi/main_pi.html"
+        },
+        {
+            "Icon": "images/Actions/Ok/select",
+            "Name": "Select",
+            "States": [
+                {
+                    "Image": "images/Actions/Ok/Icons/select",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Selects current item",
+            "UUID": "com.funky.rokuremotejs.Ok",
+            "PropertyInspectorPath": "pi/main_pi.html"
+        },
+        {
+            "Icon": "images/Actions/Back/back",
+            "Name": "Back",
+            "States": [
+                {
+                    "Image": "images/Actions/Back/Icons/back",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Moves back",
+            "UUID": "com.funky.rokuremotejs.Back"
+        },
+        {
+            "Icon": "images/Actions/Home/house",
+            "Name": "Home",
+            "States": [
+                {
+                    "Image": "images/Actions/Home/Icons/house",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Goes to home",
+            "UUID": "com.funky.rokuremotejs.Home"
+        },
+        {
+            "Icon": "images/Actions/VolumeUp/volumeUp",
+            "Name": "Volume Up",
+            "States": [
+                {
+                    "Image": "images/Actions/VolumeUp/Icons/volumeUp",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Turns the volume up",
+            "UUID": "com.funky.rokuremotejs.VolumeUp"
+        },
+        {
+            "Icon": "images/Actions/VolumeDown/volumeLow",
+            "Name": "Volume Down",
+            "States": [
+                {
+                    "Image": "images/Actions/VolumeDown/Icons/volumeLow",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Turns the volume down",
+            "UUID": "com.funky.rokuremotejs.VolumeDown"
+        },
+        {
+            "Icon": "images/Actions/VolumeMute/volumeMute",
+            "Name": "Volume Mute Toggle",
+            "States": [
+                {
+                    "Image": "images/Actions/VolumeMute/Icons/volumeMute",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Mutes or unmutes the volume",
+            "UUID": "com.funky.rokuremotejs.VolumeMute"
+        },
+        {
+            "Icon": "images/Actions/Rewind/rewind",
+            "Name": "Rewind",
+            "States": [
+                {
+                    "Image": "images/Actions/Rewind/Icons/rewind",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Rewind video",
+            "UUID": "com.funky.rokuremotejs.Rewind"
+        },
+        {
+            "Icon": "images/Actions/PlayPause/playPause",
+            "Name": "Play/Pause",
+            "States": [
+                {
+                    "Image": "images/Actions/PlayPause/Icons/playPause",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Play or Pause video",
+            "UUID": "com.funky.rokuremotejs.PlayPause"
+        },
+        {
+            "Icon": "images/Actions/Forward/forward",
+            "Name": "Forward",
+            "States": [
+                {
+                    "Image": "images/Actions/Forward/Icons/forward",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Forward video",
+            "UUID": "com.funky.rokuremotejs.Forward"
+        },
+        {
+            "Icon": "images/Actions/Apps/app",
+            "Name": "Launch App/Select TV Input",
+            "States": [
+                {
+                    "Image": "images/Actions/Apps/Icons/app",
+                    "TitleAlignment": "bottom",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Launch a specific app",
+            "UUID": "com.funky.rokuremotejs.app",
+            "PropertyInspectorPath": "pi/apps_pi.html"
+        },
+        {
+            "Icon": "images/Actions/Power/power",
+            "Name": "Power On",
+            "States": [
+                {
+                    "Image": "images/Actions/Power/Icons/on",
+                    "TitleAlignment": "middle",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Turns On the Roku TV",
+            "UUID": "com.funky.rokuremotejs.PowerOn"
+        },
+        {
+            "Icon": "images/Actions/Power/power",
+            "Name": "Power Off",
+            "States": [
+                {
+                    "Image": "images/Actions/Power/Icons/off",
+                    "TitleAlignment": "bottom",
+                    "FontSize": "16"
+                }
+            ],
+            "SupportedInMultiActions": true,
+            "Tooltip": "Turns Off the Roku TV",
+            "UUID": "com.funky.rokuremotejs.PowerOff"
+        }
+    ],
+    "Category": "Roku Remote",
+    "CategoryIcon": "images/category/rokuremote",
+    "Disabled":  false,
+    "Author": "Jasper Cools",
+    "CodePath": "plugin/main.html", 
+    "PropertyInspectorPath": "pi/main_pi.html",
+    "Description": "Control your Roku TV with this plugin.",
+    "Name": "Roku Remote",
+    "Icon": "images/Icon/Roku",
+    "URL": "https://github.com/FUNKYJASPER2/StreamDeck-Roku-Remote-Plugin",
+    "Version": "1.0",
+    "SDKVersion": 2,
+    "Software": {
+        "MinimumVersion":  "4.1"
+    },
+    "OS": [
+        {
+            "Platform": "mac", 
+            "MinimumVersion" : "10.11"
+        },
+        {
+            "Platform": "windows",
+            "MinimumVersion" : "10"
+        }
+    ]
+}

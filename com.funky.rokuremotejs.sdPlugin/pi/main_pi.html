@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>RokuRemote Property Inspector</title>
+    <link rel="stylesheet" href="sdpi.css">
+    <script src="main_pi.js"></script>
+</head>
+
+<body>
+    <!-- stream deck property inspector wrapper -->
+    <div class="sdpi-wrapper">
+
+        <!-- message about where to find ip address -->
+        <details class="sdpi-item-value message info">
+            <summary>The IP-Address is located on the Roku TV by navigating to, Settings->Network->About</summary>
+        </details>
+
+        <!-- property inspector item for ip address -->
+        <div class="sdpi-item" id="ipAddressItem" title="Enter IP-Address of the Roku TV.">
+            <!-- label for item -->
+            <div class="sdpi-item-label">Roku IP-Address</div>
+            <!-- input for item -->
+            <input class="sdpi-item-value" id="ipAddress" value="" placeholder="e.g. 192.168.x.x" required pattern="\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}" onchange="updateIpAddress()">
+        </div>
+
+
+        </br>
+        </br>
+
+        <!-- message about where to get help if needed -->
+        <details class="message">
+            <summary>If you need help or would like to report a bug, please contact me at the Github repo</a></summary>
+        </details>
+
+        <!-- button that links to function to tell stream deck to open a site -->
+        <div class="sdpi-item">
+            <button class="sdpi-item-value" onclick="openPage('github.com/FUNKYJASPER2/StreamDeck-Roku-Remote-Plugin')">GitHub</button>
+        </div>
+    </div>
+    
+</body>
+
+</html>
