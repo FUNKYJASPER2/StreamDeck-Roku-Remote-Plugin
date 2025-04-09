@@ -1,7 +1,7 @@
 import streamDeck from "@elgato/streamdeck";
 import { action, KeyDownEvent, KeyUpEvent, SingletonAction, WillAppearEvent } from "@elgato/streamdeck";
 
-@action({ UUID: "com.jasper-cools.remote-for-roku.base.play-pause" })
+@action({ UUID: "com.funky.rokuremotejs.play-pause" })
 export class PlayPause extends SingletonAction {
 
     override onWillAppear(ev: WillAppearEvent): void | Promise<void> {

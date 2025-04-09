@@ -1,7 +1,7 @@
 import streamDeck from "@elgato/streamdeck";
 import { action, KeyDownEvent, KeyUpEvent, SingletonAction, WillAppearEvent } from "@elgato/streamdeck";
 
-@action({ UUID: "com.jasper-cools.remote-for-roku.base.forward" })
+@action({ UUID: "com.funky.rokuremotejs.forward" })
 export class Forward extends SingletonAction {
 
     override onWillAppear(ev: WillAppearEvent): void | Promise<void> {

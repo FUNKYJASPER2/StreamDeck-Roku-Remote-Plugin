@@ -8,7 +8,7 @@ import { parseStringPromise } from "xml2js";
 // 	powerState: string;
 // };
 
-@action({ UUID: "com.jasper-cools.remote-for-roku.base.power-on" })
+@action({ UUID: "com.funky.rokuremotejs.power-on" })
 export class PowerOn extends SingletonAction {
 
     override async onWillAppear(ev: WillAppearEvent): Promise<void> {

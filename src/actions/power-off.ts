@@ -2,7 +2,7 @@ import streamDeck from "@elgato/streamdeck";
 import { action, KeyDownEvent, KeyUpEvent, SingletonAction, WillAppearEvent } from "@elgato/streamdeck";
 import { parseStringPromise } from "xml2js";
 
-@action({ UUID: "com.jasper-cools.remote-for-roku.base.power-off" })
+@action({ UUID: "com.funky.rokuremotejs.power-off" })
 export class PowerOff extends SingletonAction {
 
     override async onWillAppear(ev: WillAppearEvent): Promise<void> {

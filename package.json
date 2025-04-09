@@ -1,8 +1,8 @@
 {
     "scripts": {
         "build": "rollup -c",
-        "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.jasper-cools.remote-for-roku.base\"",
-        "link": "streamdeck link com.jasper-cools.remote-for-roku.base.sdPlugin"
+        "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.funky.rokuremotejs\"",
+        "link": "streamdeck link com.funky.rokuremotejs.sdPlugin"
     },
     "type": "module",
     "devDependencies": {

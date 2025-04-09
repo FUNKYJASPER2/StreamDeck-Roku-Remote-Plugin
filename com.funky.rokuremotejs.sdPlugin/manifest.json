@@ -5,7 +5,7 @@
 	"Actions": [
 		{
 			"Name": "Select",
-			"UUID": "com.jasper-cools.remote-for-roku.base.select",
+			"UUID": "com.funky.rokuremotejs.select",
 			"Icon": "imgs/actions/Select/select",
 			"Tooltip": "Selects current item",
 			"PropertyInspectorPath": "ui/select.html",
@@ -20,7 +20,7 @@
 		},
 		{
 			"Name": "Move Cursor Up",
-			"UUID": "com.jasper-cools.remote-for-roku.base.up",
+			"UUID": "com.funky.rokuremotejs.up",
 			"Icon": "imgs/actions/Up/up",
 			"Tooltip": "Moves cursor up",
 			"PropertyInspectorPath": "ui/up.html",
@@ -35,7 +35,7 @@
 		},
 		{
 			"Name": "Move Cursor Down",
-			"UUID": "com.jasper-cools.remote-for-roku.base.down",
+			"UUID": "com.funky.rokuremotejs.down",
 			"Icon": "imgs/actions/Down/down",
 			"Tooltip": "Moves cursor down",
 			"PropertyInspectorPath": "ui/down.html",
@@ -50,7 +50,7 @@
 		},
 		{
 			"Name": "Move Cursor Left",
-			"UUID": "com.jasper-cools.remote-for-roku.base.left",
+			"UUID": "com.funky.rokuremotejs.left",
 			"Icon": "imgs/actions/Left/left",
 			"Tooltip": "Moves cursor left",
 			"PropertyInspectorPath": "ui/left.html",
@@ -65,7 +65,7 @@
 		},
 		{
 			"Name": "Move Cursor Right",
-			"UUID": "com.jasper-cools.remote-for-roku.base.right",
+			"UUID": "com.funky.rokuremotejs.right",
 			"Icon": "imgs/actions/Right/right",
 			"Tooltip": "Moves cursor right",
 			"PropertyInspectorPath": "ui/right.html",
@@ -80,7 +80,7 @@
 		},
 		{
 			"Name": "Options",
-			"UUID": "com.jasper-cools.remote-for-roku.base.option",
+			"UUID": "com.funky.rokuremotejs.option",
 			"Icon": "imgs/actions/Options/options",
 			"Tooltip": "Option",
 			"PropertyInspectorPath": "ui/option.html",
@@ -95,7 +95,7 @@
 		},
 		{
 			"Name": "Back",
-			"UUID": "com.jasper-cools.remote-for-roku.base.back",
+			"UUID": "com.funky.rokuremotejs.back",
 			"Icon": "imgs/actions/Back/back",
 			"Tooltip": "Moves back",
 			"PropertyInspectorPath": "ui/back.html",
@@ -110,7 +110,7 @@
 		},
 		{
 			"Name": "Home",
-			"UUID": "com.jasper-cools.remote-for-roku.base.home",
+			"UUID": "com.funky.rokuremotejs.home",
 			"Icon": "imgs/actions/Home/house",
 			"Tooltip": "Goes to home",
 			"PropertyInspectorPath": "ui/home.html",
@@ -125,7 +125,7 @@
 		},
 		{
 			"Name": "Volume Up",
-			"UUID": "com.jasper-cools.remote-for-roku.base.volume-up",
+			"UUID": "com.funky.rokuremotejs.volume-up",
 			"Icon": "imgs/actions/VolumeUp/volume-up",
 			"Tooltip": "Turns the volume up",
 			"PropertyInspectorPath": "ui/volume-up.html",
@@ -140,7 +140,7 @@
 		},
 		{
 			"Name": "Volume Down",
-			"UUID": "com.jasper-cools.remote-for-roku.base.volume-down",
+			"UUID": "com.funky.rokuremotejs.volume-down",
 			"Icon": "imgs/actions/VolumeDown/volume-down",
 			"Tooltip": "Turns the volume down",
 			"PropertyInspectorPath": "ui/volume-down.html",
@@ -155,7 +155,7 @@
 		},
 		{
 			"Name": "Volume Mute Toggle",
-			"UUID": "com.jasper-cools.remote-for-roku.base.volume-mute",
+			"UUID": "com.funky.rokuremotejs.volume-mute",
 			"Icon": "imgs/actions/VolumeMute/volume-mute",
 			"Tooltip": "Mutes or unmutes the volume",
 			"PropertyInspectorPath": "ui/volume-mute.html",
@@ -170,7 +170,7 @@
 		},
 		{
 			"Name": "Rewind",
-			"UUID": "com.jasper-cools.remote-for-roku.base.rewind",
+			"UUID": "com.funky.rokuremotejs.rewind",
 			"Icon": "imgs/Actions/Rewind/rewind",
 			"Tooltip": "Rewind video",
 			"PropertyInspectorPath": "ui/rewind.html",
@@ -185,7 +185,7 @@
 		},
 		{
 			"Name": "Play/Pause",
-			"UUID": "com.jasper-cools.remote-for-roku.base.play-pause",
+			"UUID": "com.funky.rokuremotejs.play-pause",
 			"Icon": "imgs/Actions/PlayPause/play-pause",
 			"Tooltip": "Play or Pause video",
 			"PropertyInspectorPath": "ui/play-pause.html",
@@ -200,7 +200,7 @@
 		},
 		{
 			"Name": "Forward",
-			"UUID": "com.jasper-cools.remote-for-roku.base.forward",
+			"UUID": "com.funky.rokuremotejs.forward",
 			"Icon": "imgs/Actions/Forward/forward",
 			"Tooltip": "Forward video",
 			"PropertyInspectorPath": "ui/forward.html",
@@ -215,7 +215,7 @@
 		},
 		{
 			"Name": "Launch App/Select TV Input",
-			"UUID": "com.jasper-cools.remote-for-roku.base.app-selection",
+			"UUID": "com.funky.rokuremotejs.app-selection",
 			"Icon": "imgs/Actions/AppSelection/selection",
 			"Tooltip": "Launch a specific app",
 			"PropertyInspectorPath": "ui/app-selection.html",
@@ -230,7 +230,7 @@
 		},
 		{
 			"Name": "Power On",
-			"UUID": "com.jasper-cools.remote-for-roku.base.power-on",
+			"UUID": "com.funky.rokuremotejs.power-on",
 			"Icon": "imgs/Actions/Power/power",
 			"Tooltip": "Turns On the Roku TV",
 			"PropertyInspectorPath": "ui/power-on.html",
@@ -246,7 +246,7 @@
 		},
 		{
 			"Name": "Power Off",
-			"UUID": "com.jasper-cools.remote-for-roku.base.power-off",
+			"UUID": "com.funky.rokuremotejs.power-off",
 			"Icon": "imgs/Actions/Power/power",
 			"Tooltip": "Turns Off the Roku TV",
 			"PropertyInspectorPath": "ui/power-off.html",
@@ -283,5 +283,5 @@
 		"Version": "20",
 		"Debug": "enabled"
 	},
-	"UUID": "com.jasper-cools.remote-for-roku.base"
+	"UUID": "com.funky.rokuremotejs"
 }

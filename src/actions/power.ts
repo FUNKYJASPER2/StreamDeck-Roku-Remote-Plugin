@@ -6,7 +6,7 @@ type Settings = {
 	powerState: string;
 };
 
-@action({ UUID: "com.jasper-cools.remote-for-roku.base.power" })
+@action({ UUID: "com.funky.rokuremotejs.power" })
 export class Power extends SingletonAction {
 
     override async onWillAppear(ev: WillAppearEvent): Promise<void> {

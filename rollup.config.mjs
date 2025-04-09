@@ -6,7 +6,7 @@ import path from "node:path";
 import url from "node:url";
 
 const isWatching = !!process.env.ROLLUP_WATCH;
-const sdPlugin = "com.jasper-cools.remote-for-roku.base.sdPlugin";
+const sdPlugin = "com.funky.rokuremotejs.sdPlugin";
 
 /**
  * @type {import('rollup').RollupOptions}

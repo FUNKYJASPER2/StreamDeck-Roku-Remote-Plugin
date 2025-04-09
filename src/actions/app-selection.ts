@@ -18,7 +18,7 @@ type Settings = {
 	selected_app_ID: string;
 };
 
-@action({ UUID: "com.jasper-cools.remote-for-roku.base.app-selection" })
+@action({ UUID: "com.funky.rokuremotejs.app-selection" })
 export class AppSelection extends SingletonAction {
 
     private async setIconFromSettings(ev: WillAppearEvent | DidReceiveSettingsEvent<Settings>): Promise<void> {
