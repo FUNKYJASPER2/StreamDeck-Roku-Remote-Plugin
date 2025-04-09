@@ -6,259 +6,259 @@
 		{
 			"Name": "Select",
 			"UUID": "com.jasper-cools.remote-for-roku.base.select",
-            "Icon": "imgs/actions/Select/select",
+			"Icon": "imgs/actions/Select/select",
 			"Tooltip": "Selects current item",
 			"PropertyInspectorPath": "ui/select.html",
 			"SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/Select/Icons/select",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
+			"States": [
+				{
+					"Image": "imgs/actions/Select/Icons/select",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
 		{
 			"Name": "Move Cursor Up",
 			"UUID": "com.jasper-cools.remote-for-roku.base.up",
-            "Icon": "imgs/actions/Up/up",
+			"Icon": "imgs/actions/Up/up",
 			"Tooltip": "Moves cursor up",
 			"PropertyInspectorPath": "ui/up.html",
 			"SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/Up/Icons/up",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
+			"States": [
+				{
+					"Image": "imgs/actions/Up/Icons/up",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
 			"Name": "Move Cursor Down",
 			"UUID": "com.jasper-cools.remote-for-roku.base.down",
-            "Icon": "imgs/actions/Down/down",
+			"Icon": "imgs/actions/Down/down",
 			"Tooltip": "Moves cursor down",
-            "PropertyInspectorPath": "ui/down.html",
+			"PropertyInspectorPath": "ui/down.html",
 			"SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/Down/Icons/down",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Move Cursor Left",
+			"States": [
+				{
+					"Image": "imgs/actions/Down/Icons/down",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Move Cursor Left",
 			"UUID": "com.jasper-cools.remote-for-roku.base.left",
 			"Icon": "imgs/actions/Left/left",
 			"Tooltip": "Moves cursor left",
-            "PropertyInspectorPath": "ui/left.html",
+			"PropertyInspectorPath": "ui/left.html",
 			"SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/Left/Icons/left",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Move Cursor Right",
+			"States": [
+				{
+					"Image": "imgs/actions/Left/Icons/left",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Move Cursor Right",
 			"UUID": "com.jasper-cools.remote-for-roku.base.right",
 			"Icon": "imgs/actions/Right/right",
 			"Tooltip": "Moves cursor right",
-            "PropertyInspectorPath": "ui/right.html",
+			"PropertyInspectorPath": "ui/right.html",
 			"SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/Right/Icons/right",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
+			"States": [
+				{
+					"Image": "imgs/actions/Right/Icons/right",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
 		{
-            "Name": "Options",
+			"Name": "Options",
 			"UUID": "com.jasper-cools.remote-for-roku.base.option",
 			"Icon": "imgs/actions/Options/options",
 			"Tooltip": "Option",
 			"PropertyInspectorPath": "ui/option.html",
 			"SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/Options/Icons/options",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Back",
+			"States": [
+				{
+					"Image": "imgs/actions/Options/Icons/options",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Back",
 			"UUID": "com.jasper-cools.remote-for-roku.base.back",
 			"Icon": "imgs/actions/Back/back",
 			"Tooltip": "Moves back",
 			"PropertyInspectorPath": "ui/back.html",
 			"SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/Back/Icons/back",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Home",
+			"States": [
+				{
+					"Image": "imgs/actions/Back/Icons/back",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Home",
 			"UUID": "com.jasper-cools.remote-for-roku.base.home",
 			"Icon": "imgs/actions/Home/house",
 			"Tooltip": "Goes to home",
 			"PropertyInspectorPath": "ui/home.html",
 			"SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/Home/Icons/house",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Volume Up",
-            "UUID": "com.jasper-cools.remote-for-roku.base.volume-up",
-            "Icon": "imgs/actions/VolumeUp/volume-up",
-            "Tooltip": "Turns the volume up",
-            "PropertyInspectorPath": "ui/volume-up.html",
-            "SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/VolumeUp/Icons/volume-up",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Volume Down",
-            "UUID": "com.jasper-cools.remote-for-roku.base.volume-down",
-            "Icon": "imgs/actions/VolumeDown/volume-down",
-            "Tooltip": "Turns the volume down",
-            "PropertyInspectorPath": "ui/volume-down.html",
-            "SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/VolumeDown/Icons/volume-down",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Volume Mute Toggle",
-            "UUID": "com.jasper-cools.remote-for-roku.base.volume-mute",
-            "Icon": "imgs/actions/VolumeMute/volume-mute",
-            "Tooltip": "Mutes or unmutes the volume",
-            "PropertyInspectorPath": "ui/volume-mute.html",
-            "SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/actions/VolumeMute/Icons/volume-mute",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
+			"States": [
+				{
+					"Image": "imgs/actions/Home/Icons/house",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
 		{
-            "Name": "Rewind",
-            "UUID": "com.jasper-cools.remote-for-roku.base.rewind",
-            "Icon": "imgs/Actions/Rewind/rewind",
-            "Tooltip": "Rewind video",
-            "PropertyInspectorPath": "ui/rewind.html",
-            "SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/Actions/Rewind/Icons/rewind",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Play/Pause",
-            "UUID": "com.jasper-cools.remote-for-roku.base.play-pause",
-            "Icon": "imgs/Actions/PlayPause/play-pause",
-            "Tooltip": "Play or Pause video",
-            "PropertyInspectorPath": "ui/play-pause.html",
-            "SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/Actions/PlayPause/Icons/play-pause",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Forward",
-            "UUID": "com.jasper-cools.remote-for-roku.base.forward",
-            "Icon": "imgs/Actions/Forward/forward",
-            "Tooltip": "Forward video",
-            "PropertyInspectorPath": "ui/forward.html",
-            "SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/Actions/Forward/Icons/forward",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Launch App/Select TV Input",
-            "UUID": "com.jasper-cools.remote-for-roku.base.app-selection",
-            "Icon": "imgs/Actions/AppSelection/selection",
-            "Tooltip": "Launch a specific app",
-            "PropertyInspectorPath": "ui/app-selection.html",
-            "SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/Actions/AppSelection/Icons/selection",
-                    "TitleAlignment": "bottom",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Power On",
-            "UUID": "com.jasper-cools.remote-for-roku.base.power-on",
-            "Icon": "imgs/Actions/Power/power",
-            "Tooltip": "Turns On the Roku TV",
-            "PropertyInspectorPath": "ui/power-on.html",
-            "SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Name": "Power On",
-                    "Image": "imgs/Actions/Power/Icons/on",
-                    "TitleAlignment": "middle",
-                    "FontSize": 16
-                }
-            ]
-        },
-        {
-            "Name": "Power Off",
-            "UUID": "com.jasper-cools.remote-for-roku.base.power-off",
-            "Icon": "imgs/Actions/Power/power",
-            "Tooltip": "Turns Off the Roku TV",
-            "PropertyInspectorPath": "ui/power-off.html",
-            "SupportedInMultiActions": true,
-            "States": [
-                {
-                    "Image": "imgs/Actions/Power/Icons/off",
-                    "TitleAlignment": "bottom",
-                    "FontSize": 16
-                }
-            ]
-        }
+			"Name": "Volume Up",
+			"UUID": "com.jasper-cools.remote-for-roku.base.volume-up",
+			"Icon": "imgs/actions/VolumeUp/volume-up",
+			"Tooltip": "Turns the volume up",
+			"PropertyInspectorPath": "ui/volume-up.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Image": "imgs/actions/VolumeUp/Icons/volume-up",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Volume Down",
+			"UUID": "com.jasper-cools.remote-for-roku.base.volume-down",
+			"Icon": "imgs/actions/VolumeDown/volume-down",
+			"Tooltip": "Turns the volume down",
+			"PropertyInspectorPath": "ui/volume-down.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Image": "imgs/actions/VolumeDown/Icons/volume-down",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Volume Mute Toggle",
+			"UUID": "com.jasper-cools.remote-for-roku.base.volume-mute",
+			"Icon": "imgs/actions/VolumeMute/volume-mute",
+			"Tooltip": "Mutes or unmutes the volume",
+			"PropertyInspectorPath": "ui/volume-mute.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Image": "imgs/actions/VolumeMute/Icons/volume-mute",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Rewind",
+			"UUID": "com.jasper-cools.remote-for-roku.base.rewind",
+			"Icon": "imgs/Actions/Rewind/rewind",
+			"Tooltip": "Rewind video",
+			"PropertyInspectorPath": "ui/rewind.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Image": "imgs/Actions/Rewind/Icons/rewind",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Play/Pause",
+			"UUID": "com.jasper-cools.remote-for-roku.base.play-pause",
+			"Icon": "imgs/Actions/PlayPause/play-pause",
+			"Tooltip": "Play or Pause video",
+			"PropertyInspectorPath": "ui/play-pause.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Image": "imgs/Actions/PlayPause/Icons/play-pause",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Forward",
+			"UUID": "com.jasper-cools.remote-for-roku.base.forward",
+			"Icon": "imgs/Actions/Forward/forward",
+			"Tooltip": "Forward video",
+			"PropertyInspectorPath": "ui/forward.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Image": "imgs/Actions/Forward/Icons/forward",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Launch App/Select TV Input",
+			"UUID": "com.jasper-cools.remote-for-roku.base.app-selection",
+			"Icon": "imgs/Actions/AppSelection/selection",
+			"Tooltip": "Launch a specific app",
+			"PropertyInspectorPath": "ui/app-selection.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Image": "imgs/Actions/AppSelection/Icons/selection",
+					"TitleAlignment": "bottom",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Power On",
+			"UUID": "com.jasper-cools.remote-for-roku.base.power-on",
+			"Icon": "imgs/Actions/Power/power",
+			"Tooltip": "Turns On the Roku TV",
+			"PropertyInspectorPath": "ui/power-on.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Name": "Power On",
+					"Image": "imgs/Actions/Power/Icons/on",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
+			"Name": "Power Off",
+			"UUID": "com.jasper-cools.remote-for-roku.base.power-off",
+			"Icon": "imgs/Actions/Power/power",
+			"Tooltip": "Turns Off the Roku TV",
+			"PropertyInspectorPath": "ui/power-off.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Image": "imgs/Actions/Power/Icons/off",
+					"TitleAlignment": "bottom",
+					"FontSize": 16
+				}
+			]
+		}
 	],
 	"Category": "Remote for Roku",
 	"CategoryIcon": "imgs/plugin/category",
