@@ -1,23 +1,3 @@
-# StreamDeck-Roku-Remote-Plugin
-
-## Description
-This Stream Deck Plugin allows you to control your Roku TV.
-
-## Prerequisites 
-To install this plugin you first need to make sure you own a Stream Deck and have the Stream Deck software installed. 
-
-If you do not, the software can be found [here](https://www.elgato.com/en/downloads).
-
-
-## How to install the plugin
-To install the plugin you can do so from the official Stream Deck Store. 
-
-1. Open the Stream Deck Application and click the store icon as shown below:
-
-![Image](https://github.com/user-attachments/assets/0912cc7a-31b2-4268-a99c-42099874934c)
-
-2. Once the store is open, search for "Remote for Roku" and click "Open in Stream Deck".
-
 ## How to set up the plugin
 
 ### *As of Roku OS 14.1, the "Control by mobile apps" feature must be set to "Enabled" for a Roku device to receive ECP-1 commands*
@@ -38,3 +18,4 @@ To install the plugin you can do so from the official Stream Deck Store.
 ![alt text](https://www.howtogeek.com/wp-content/uploads/2022/05/RokuTVIPAddress-RokuFindIPAddress.png?trim=1,1&bg-color=000&pad=1,1 "Roku IP-Address Image")
 
 2. Once you have the IP-Address of the Roku TV, add it to the IP-Address field in the action properties and it will be saved for all actions you choose to add after that.
+
