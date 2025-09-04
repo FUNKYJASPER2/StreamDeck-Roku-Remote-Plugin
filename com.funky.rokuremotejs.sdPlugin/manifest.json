@@ -229,6 +229,22 @@
 			]
 		},
 		{
+			"Name": "Power Toggle",
+			"UUID": "com.funky.rokuremotejs.power",
+			"Icon": "imgs/Actions/Power/power",
+			"Tooltip": "Toggles the Power State of the Roku TV",
+			"PropertyInspectorPath": "ui/power.html",
+			"SupportedInMultiActions": true,
+			"States": [
+				{
+					"Name": "Power On",
+					"Image": "imgs/Actions/Power/Icons/on",
+					"TitleAlignment": "middle",
+					"FontSize": 16
+				}
+			]
+		},
+		{
 			"Name": "Power On",
 			"UUID": "com.funky.rokuremotejs.power-on",
 			"Icon": "imgs/Actions/Power/power",

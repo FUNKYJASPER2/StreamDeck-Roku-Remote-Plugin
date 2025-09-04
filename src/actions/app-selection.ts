@@ -16,6 +16,7 @@ import { parseStringPromise } from "xml2js";
 // Define the action's settings type.
 type Settings = {
 	selected_app_ID: string;
+    ipAddress: string;
 };
 
 @action({ UUID: "com.funky.rokuremotejs.app-selection" })
@@ -23,7 +24,7 @@ export class AppSelection extends SingletonAction {
 
     private async setIconFromSettings(ev: WillAppearEvent | DidReceiveSettingsEvent<Settings>): Promise<void> {
         const globalSettings = await streamDeck.settings.getGlobalSettings();
-        const ipAddress = globalSettings?.ipAddress ?? "0.0.0.0";
+        const ipAddress = ev.payload.settings.ipAddress ?? globalSettings?.ipAddress ?? "0.0.0.0";
         const appID = ev.payload.settings.selected_app_ID ?? "";
 
         try {
@@ -60,7 +61,7 @@ export class AppSelection extends SingletonAction {
             const appID = ev.payload.settings.selected_app_ID = ev.payload.settings.selected_app_ID ?? "";
             
             // Assign global IP address (default to "0.0.0.0" if undefined)
-            let ipAddress = globalSettings?.ipAddress ?? "";
+            let ipAddress = ev.payload.settings.ipAddress ?? globalSettings?.ipAddress ?? "";
 
             if (!ipAddress || ipAddress == "") {
                 ev.action.showAlert();
