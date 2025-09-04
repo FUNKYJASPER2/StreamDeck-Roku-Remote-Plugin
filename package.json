@@ -2,7 +2,8 @@
     "scripts": {
         "build": "rollup -c",
         "watch": "rollup -c -w --watch.onEnd=\"streamdeck restart com.funky.rokuremotejs\"",
-        "link": "streamdeck link com.funky.rokuremotejs.sdPlugin"
+        "link": "streamdeck link com.funky.rokuremotejs.sdPlugin",
+        "linkWindows": "streamdeck link com.funky.rokuremotejs.sdPlugin --plugin-root \"/mnt/c/Users/spinrag/AppData/Roaming/Elgato/StreamDeck/Plugins\""
     },
     "type": "module",
     "devDependencies": {
