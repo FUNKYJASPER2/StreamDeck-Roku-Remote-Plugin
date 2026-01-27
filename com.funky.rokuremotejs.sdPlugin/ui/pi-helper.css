@@ -1,0 +1,47 @@
+/* Shared tab styles for PI pages (matches PRO tab bar layout) */
+.tab-row {
+    display: flex;
+    gap: 0;
+    align-items: center;
+    background-color: #242424;
+    border-radius: 6px;
+    padding: 3px;
+    position: relative;
+    overflow: hidden;
+}
+.tab-row sdpi-button {
+    flex: 1 1 0;
+    z-index: 1;
+    margin: 0;
+}
+.tab-row .tab-highlight {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: calc(100% - 6px);
+    width: 0;
+    background: #424242;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+    transition: transform 200ms ease, width 200ms ease;
+    z-index: 0;
+    pointer-events: none;
+}
+.tab-container {
+    display: none;
+}
+.tab-container.active {
+    display: block;
+}
+
+.pro-list {
+    margin: 0;
+    padding-left: 16px;
+    color: var(--font-color);
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.pro-list li {
+    margin: 4px 0;
+}
