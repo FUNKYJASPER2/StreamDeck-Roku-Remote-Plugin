@@ -261,10 +261,10 @@
 		}
 	],
 	"Category": "Remote for Roku",
-	"CategoryIcon": "imgs/plugin/category",
+	"CategoryIcon": "imgs/plugin/Remote-for-Roku-Category",
 	"CodePath": "bin/plugin.js",
 	"Description": "Control your Roku TV or Device from your Stream Deck",
-	"Icon": "imgs/plugin/marketplace",
+	"Icon": "imgs/plugin/Remote-for-Roku-Logo",
 	"SDKVersion": 2,
 	"Software": {
 		"MinimumVersion": "6.5"
