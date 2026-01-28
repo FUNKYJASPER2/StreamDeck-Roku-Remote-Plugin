@@ -1,4 +1,4 @@
-import streamDeck, { DidReceiveSettingsEvent, JsonObject } from "@elgato/streamdeck";
+import streamDeck from "@elgato/streamdeck";
 import { action, KeyDownEvent, KeyUpEvent, SingletonAction, WillAppearEvent } from "@elgato/streamdeck";
 import { parseStringPromise } from "xml2js";
 

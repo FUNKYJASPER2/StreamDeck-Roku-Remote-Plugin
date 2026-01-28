@@ -1,15 +1,14 @@
 import streamDeck from "@elgato/streamdeck";
-import { 
-    action, 
-    KeyDownEvent, 
-    KeyUpEvent, 
-    SingletonAction, 
-    WillAppearEvent, 
+import {
+    action,
+    KeyDownEvent,
+    KeyUpEvent,
+    SingletonAction,
+    WillAppearEvent,
     DidReceiveSettingsEvent,
-    SendToPluginEvent,
-    JsonObject,
-    JsonValue
+    SendToPluginEvent
 } from "@elgato/streamdeck";
+import type { JsonObject, JsonValue } from "@elgato/utils";
 import { parseStringPromise } from "xml2js";
 
 
@@ -129,7 +128,7 @@ export class AppSelection extends SingletonAction {
                 console.log('Parsed apps:', JSON.stringify(appsArray, null, 2));
 
                 // Send parsed data to Property Inspector
-                streamDeck.ui.current?.sendToPropertyInspector({
+                streamDeck.ui.sendToPropertyInspector({
                     event: 'getApps',
                     items: appsArray,
                 });
@@ -138,7 +137,7 @@ export class AppSelection extends SingletonAction {
                 console.error('Error fetching/parsing apps:', error);
             }
 
-            streamDeck.ui.current?.sendToPropertyInspector({
+            streamDeck.ui.sendToPropertyInspector({
                 event: 'getApps',
                 items: appsArray
             });
